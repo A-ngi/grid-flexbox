@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        .circulo-rojo {
+            width: 136px;
+            height: 131px;
+            background-color: #851408;
+            border-radius: 100%;
+        }
+
+        .cuadrado-rojo {
+            width: 136px;
+            height: 131px;
+            background-color: #851408;
+        }
+
+        .margin {
+            margin: 20px;
+        }
+
+        .inv-bg {
+            background-color: rgba(139, 0, 19, 0.137);
+            pointer-events: none;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .fullscreen{
+            height: 100%;
+        }
+
+        .vw-vh {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .inv-bg-bottom {
+            background-color: rgba(0, 4, 255, 0.103);
+            pointer-events: none;
+            justify-content: space-between;
+            display: flex;
+        }
+        
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+
+    <div class="inv-bg vw-vh">
+
+        <div class="inv-bg margin fullscreen">
+            <div class="inv-bg-bottom">
+                <div class="cuadrado-rojo"></div>
+                <div class="circulo-rojo"></div>
+            </div>
+            
+            <div class="inv-bg-bottom">
+                <div class="circulo-rojo"></div>
+                <div class="cuadrado-rojo"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>

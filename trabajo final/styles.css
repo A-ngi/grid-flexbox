@@ -1,0 +1,225 @@
+.bluebg {
+    background-color: #2D7A95;
+}
+
+.blue {
+    color: #2D7A95;
+}
+
+.center-container {
+    opacity: 50%;
+    width: 90%;
+}
+
+.darkblue {
+    background-color: darkblue;
+}
+
+.white {
+    color: white;
+}
+
+.cyan {
+    background-color: cyan;
+    opacity: 20%;
+}
+
+.bg-grid {
+    width: 100vw;
+    height: 100vh;
+    grid-template: 162px 1fr 138px / 1fr;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.bottom-bar {
+    grid-row: 3;
+    justify-content: space-between;
+}
+
+.middle-grid {
+    grid-row: 2;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.209);
+}
+
+.top-grid {
+    grid-row: 1;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.information-container {
+    margin-left: 33px;
+    margin-bottom: 38px;
+    width: 240px;
+    height: 20px;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.contact-container {
+    width: 520px;
+    height: 60px;
+    margin-right: 1.250rem;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.textxl {
+    font-size: 0.84rem;
+}
+
+.textl {
+    font-size: 0.7rem;
+}
+
+.textxxl {
+    font-size: 2.5rem;
+}
+
+.contact-info {
+    width: 138px;
+    height: 60px;
+    align-content: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.grid-template {
+    grid-template: 1fr 1fr 1fr 1fr/1fr;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-picture {
+    margin-left: 40px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 14px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.login-container {
+    margin-right: 40px;
+    width: 455px;
+    height: 29px;
+    justify-content: space-between;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+.center-self {
+    justify-self: center;
+    align-self: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.center-box {
+    width: 995px;
+    height: 400px;
+}
+
+.inscription-box {
+    width: 26rem;
+    height: 25rem;
+}
+
+.void-img {
+    width: 22rem;
+    height: 22rem;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+input {
+    border: none;
+    background-color: rgb(230, 230, 230);
+    width: 176px;
+    height: 31px;
+    margin-bottom: 12px;
+}
+
+.button {
+    padding: 2px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+#inscription {
+    width: 180px;
+    height: 31px;
+    margin-top: 12px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    size-adjust: 16px;
+    cursor: pointer;
+}
+
+#motivacion {
+    resize: none;
+    width: 320px;
+    height: 178px;
+    text-align: start;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+
+/* id es singular, clase es para todos */
